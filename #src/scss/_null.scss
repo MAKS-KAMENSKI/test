@@ -1,0 +1,165 @@
+/*---------Обнуление стилей-----------*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,
+:active,
+:target {
+	outline: none;
+	box-shadow: none;
+}
+a:focus,
+a:active,
+a:target {
+	outline: none;
+	box-shadow: none;
+}
+
+button:focus,
+button:active,
+button:target {
+	outline: 0;
+	box-shadow: none;
+}
+
+ul,
+li,
+p,
+div,
+span,
+ol,
+label {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: "Lato-font", sans-serif;
+	font-weight: 400;
+}
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body {
+	color: var(--black);
+	font-size: 10px;
+	line-height: 1.4;
+}
+
+body.lock {
+	overflow: hidden;
+}
+
+::selection {
+	background: #223650;
+	color: #fff;
+}
+
+input,
+button,
+textarea {
+	font-family: "Lato-font", sans-serif;
+	outline: none;
+	box-shadow: none;
+	border: none;
+	background: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-family: "Lato-font", sans-serif;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+	background-color: none;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+address {
+	display: block;
+	font-style: normal;
+}
+
+svg {
+	display: block;
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+	height: 3px;
+}
+::-webkit-scrollbar-button {
+	background-color: transparent;
+}
+::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+::-webkit-scrollbar-track-piece {
+	background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+	height: 0px;
+	background-color: #c3c5c7;
+	border-radius: 6px;
+}
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+::-webkit-resizer {
+	background-color: transparent;
+}

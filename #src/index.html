@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div class="page">
+		<header class="header">
+			<div class="header__container container">
+				<a class="header__logo logo link" href="/">
+					<svg class="logo__img" xmlns="http://www.w3.org/2000/svg">
+						<use xlink:href="./images/icons/icons.svg#logo"></use>
+					</svg>
+				</a>
+				<nav class="header__menu">
+					<ul class="menu">
+						<li class="menu__item">
+							<a class="menu__link link" href="/">Бизнес</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link link" href="/">О нас</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link link" href="/">Цены</a>
+						</li>
+						<li class="menu__item">
+							<a class="menu__link link" href="#order">Оформить заказ</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="header__burger burger" id="burger">
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+					<span class="burger__line"></span>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="first">
+				<div class="first__container container">
+					<picture>
+						<source media="(min-width:576px)" srcset="images/first-bg.jpg">
+						<img class="first__bg" src="images/first-bg__mob.jpg" alt="Описание">
+					</picture>
+					<div class="first__content">
+						<h1 class="first__title">
+							<p class="first__text">
+								<span class="accent-color">Lorem ipsum</span> dolor sit
+							</p>
+							<p class="first__text">
+								amet consectetur <span class="accent-color">adipiscing</span>
+							</p>
+						</h1>
+						<p class="first__description">
+							At vero eos et accusamus et iusto odio dignissimos ducimus!
+						</p>
+						<ul class="first__list">
+							<li class="first__item">
+								Totam rem aperiam eaque ipsa
+							</li>
+							<li class="first__item">
+								Sit voluptatem accusantium doloremque laudantium
+							</li>
+							<li class="first__item">
+								Sed ut perspiciatis, unde omnis iste natus error
+							</li>
+						</ul>
+						<div class="first__btn-row">
+							<a class="first__btn btn" href="/">Заказать</a>
+							<a class="first__btn btn btn_secondary" href="/">Подробнее</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="order" id="order">
+				<div class="order__container container">
+					<h2 class="order__title">
+						Оформление <span class="accent-color">заказа</span>
+					</h2>
+					<p class="order__desctiption">
+						Перед заполнением формы ознакомьтесь c нашей схемой работы!
+					</p>
+					<ul class="order__scheme scheme">
+						<li class="scheme__item">
+							<div class="scheme__circle">
+								<svg class="scheme__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#search"></use>
+								</svg>
+							</div>
+							<p class="scheme__text">
+								Lorem ipsum dolor sit amet
+							</p>
+						</li>
+						<li class="scheme__item">
+							<div class="scheme__circle">
+								<svg class="scheme__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#percent"></use>
+								</svg>
+							</div>
+							<p class="scheme__text">
+								Сonsecteturadipiscing elit
+							</p>
+						</li>
+						<li class="scheme__item">
+							<div class="scheme__circle">
+								<svg class="scheme__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#file"></use>
+								</svg>
+							</div>
+							<p class="scheme__text">
+								Sed do eiusmod tempor
+							</p>
+						</li>
+						<li class="scheme__item">
+							<div class="scheme__circle">
+								<svg class="scheme__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#mail"></use>
+								</svg>
+							</div>
+							<p class="scheme__text">
+								Esse cillum doloreeu fugiat
+							</p>
+						</li>
+						<li class="scheme__item">
+							<div class="scheme__circle">
+								<svg class="scheme__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#cash"></use>
+								</svg>
+							</div>
+							<p class="scheme__text">
+								Excepteur sint occaecat cupidatat non proident
+							</p>
+						</li>
+					</ul>
+					<form class="order__form form" action="#" method="post">
+						<div class="form__container">
+							<div class="form__select select">
+								<input type="hidden">
+								<div class="select__header" tabindex="0">
+									<span class="select__current" role="checkbox">Выберите тип системы</span>
+									<svg class="select__icon" xmlns="http://www.w3.org/2000/svg">
+										<use xlink:href="images/icons/icons.svg#arrow"></use>
+									</svg>
+								</div>
+								<div class="select__body">
+									<div class="select__content">
+										<div class="select__item" data-value="2">Sed ut perspiciatis</div>
+										<div class="select__item" data-value="3">Nemo enim ipsam</div>
+										<div class="select__item" data-value="4">Et harum quidem</div>
+										<div class="select__item" data-value="5">Temporibus autem</div>
+										<div class="select__item" data-value="6">Itaque earum rerum</div>
+										<div class="select__item" data-value="7">perspiciatis</div>
+										<div class="select__item" data-value="8">Temporibus Nemo</div>
+										<div class="select__item" data-value="9">Et earum rerum ut</div>
+										<div class="select__item" data-value="10">Sed ut perspiciatis</div>
+										<div class="select__item" data-value="11">Nemo enim ipsam</div>
+										<div class="select__item" data-value="12">Et harum quidem</div>
+										<div class="select__item" data-value="13">Temporibus autem</div>
+									</div>
+								</div>
+							</div>
+							<input class="form__input input" type="email" name="email" placeholder="Ваш e-mail" required>
+							<input class="form__input input" type="text" name="name" placeholder="Ваше имя" required>
+							<div class="form__range range">
+								<div class="range__row">
+									<p class="range__text">Sed ut perspiciatis, unde omnis iste natus</p>
+									<div class="range__number">
+										<span class="range__value">0</span>
+										<span class="range__unit">%</span>
+									</div>
+								</div>
+								<input class="range__input" type="range" name="range" min="0" max="100" value="0">
+							</div>
+							<label class="form__upload upload">
+								<input class="upload__input input" type="file" name="file">
+								<div class="upload__box">
+									<svg class="upload__icon" xmlns="http://www.w3.org/2000/svg">
+										<use xlink:href="images/icons/icons.svg#add-file"></use>
+									</svg>
+									<span class="upload__text">Прикрепить файл</span>
+								</div>
+							</label>
+						</div>
+						<button class="form__btn btn" type="submit">Отправить</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__left">
+					<span class="footer__copy">
+						© 2018 «LoremIpsum.net» Все права защищены.
+					</span>
+				</div>
+				<div class="footer__center">
+					<ul class="footer__pay payment">
+						<li class="payment__item">
+							<svg class="payment__icon" xmlns="http://www.w3.org/2000/svg">
+								<use xlink:href="images/icons/icons.svg#qiwi"></use>
+							</svg>
+							QIWI wallet
+						</li>
+						<li class="payment__item">
+							<svg class="payment__icon" xmlns="http://www.w3.org/2000/svg">
+								<use xlink:href="images/icons/icons.svg#yandex"></use>
+							</svg>
+							Yandex Money
+						</li>
+						<li class="payment__item">
+							<svg class="payment__icon" xmlns="http://www.w3.org/2000/svg">
+								<use xlink:href="images/icons/icons.svg#webmoney"></use>
+							</svg>
+							Web Money
+						</li>
+					</ul>
+				</div>
+				<div class="footer__right">
+					<ul class="footer__connection connection">
+						<li class="connection__item">
+							<a class="connection__link" href="mailto:info@ipsum228.com">
+								<svg class="connection__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#mail"></use>
+								</svg>
+								info@ipsum228.com
+							</a>
+						</li>
+						<li class="connection__item">
+							<a class="connection__link" href="#">
+								<svg class="connection__icon" xmlns="http://www.w3.org/2000/svg">
+									<use xlink:href="images/icons/icons.svg#vk"></use>
+								</svg>
+								Мы вконтакте
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
